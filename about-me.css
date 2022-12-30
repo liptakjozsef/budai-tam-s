@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Position */
+
+.profile-card {
+  
+  max-width: calc(100vw - 10px);
+  
+  border-radius: 0.25rem;
+  box-shadow: hsla(0, 0%, 0%, ) 10px 10px 80px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 75%;
+  padding: 0.125rem;
+  background-color: hsla(0, 0%, 100%, .5);
+  transition: all 1s ease-in-out;
+}
+
+.profile-image {
+  margin-top: -6rem;
+}
+
+img:hover {
+  transform: scale(1.05);
+  background-color: rgb(146,0,28);
+}
+
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+  color: ghostwhite;
+}
+
+li {
+  display: inline;
+}
+
+
+/* Margin and padding */
+
+.head, .about {
+  margin-bottom: 5;
+}
+
+.content {
+  padding: 5 10;
+  border-top: 0.0625rem solid hsla(0, 0%, 100%, .5);
+  color: darkgray;
+}
+
+
+/* Text */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 1.5625rem;
+  text-transform: uppercase;
+  padding-bottom: 0.625rem;
+  transition: all 0.5s ease-in-out;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0.625rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.about {
+  text-align: justify;
+  text-indent: 0.75rem;
+  line-height: 1.3rem;
+}
+
+strong {
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(146,0,28);
+}
+
+h1:hover {
+  color: rgb(146,0,28);
+}
+
+h2:hover {
+  color: rgb(146,0,28);
+}
+
+a {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: rgb(146,0,28);
+  font-size: 1.1rem;
+}
